@@ -10,27 +10,53 @@
   --logo-web-color: #000000;
   --accent-color: #2196f3;
   --text-color: #757575;
-  --primary-bg-color: #f5f5f5;
-  --white-color: #ffffff;
+  --primary-bg-color: #ffffff;
+  --footer-bg-color :#2F303A;
 }
 
-.body {
+body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .list {
   list-style: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* Logo */
 
 .text {
   color: var(--text-color);
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .logo {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 
@@ -45,7 +71,7 @@
 }
 
 .logo-studio-secondary {
-  color: var(--white-color);
+  color: var(--primary-bg-color);
 }
 /* Site-nav */
 
@@ -58,16 +84,23 @@
   text-decoration: none;
 }
 
+.site-nav :hover, 
+.site-nav :focus,
+
 .site-nav .link.current {
   color: var(--accent-color);
 }
 
 /* Hero */
 .hero {
-  color: var(--white-color) font-weight 900;
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--primary-bg-color);
+  background-color: var(--footer-bg-color);
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
 }
 
 /* Sections */
@@ -92,15 +125,27 @@
 }
 
 .auth-nav-mail {
-  color: var(--accent-color);
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.14;
+  color: var(--text-color)
 }
 
 .auth-nav-mail:hover,
 .auth-nav-mail:focus {
-  color: var(--text-color);
+  color: var(--accent-color);
 }
 
 .auth-nav-tel {
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--text-color);
 }
 
@@ -131,14 +176,23 @@
   font-size: 16px;
   line-height: 30px;
   text-decoration: none;
+  cursor: pointer;
 }
 
-.button.primary {
+.button.active {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
 }
 
+.button.active:hover,
+.button.active:focus,
+
+
 .button.secondary:hover,
 .button.secondary:focus {
   color: var(--accent-color);
+}
+
+.footer {
+  background-color: var(--footer-bg-color);
 }
