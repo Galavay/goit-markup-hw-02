@@ -294,6 +294,7 @@ body {
 }
 
 .list-portfolio {
+  color: var(--text-color);
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
