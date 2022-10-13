@@ -12,6 +12,7 @@
   --text-color: #757575;
   --primary-bg-color: #ffffff;
   --footer-bg-color: #2f303a;
+  --button-bg-color: #f5f4fa;
 }
 
 body {
@@ -48,7 +49,6 @@ body {
 
 .logo {
   font-family: raleway;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -73,7 +73,6 @@ body {
 
 .site-nav .link {
   color: var(--primary-text-color);
-  font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -116,8 +115,6 @@ body {
 
 .team-title {
   color: var(--primary-text-color);
-  font-family: inherit;
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -127,8 +124,6 @@ body {
 
 .team-name {
   color: var(--primary-text-color);
-  font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -137,8 +132,6 @@ body {
 
 .team-text {
   color: var(--text-color);
-  font-family: inherit;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -148,7 +141,6 @@ body {
 
 .map {
   color: var(--primary-bg-color);
-  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -163,8 +155,6 @@ body {
 }
 
 .nav-header-mail {
-  font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
@@ -179,8 +169,6 @@ body {
 }
 
 .nav-header-tel {
-  font-family: roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -211,7 +199,7 @@ body {
 
 .button {
   color: var(--primary-text-color);
-  background-color: var(--primary-bg-color);
+  background-color: var(--button-bg-color);
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -232,8 +220,6 @@ body {
 }
 
 .button.secondary {
-  font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.16;
@@ -247,16 +233,17 @@ body {
   background-color: var(--accent-color);
 }
 
+/* Footer */
+
 .footer {
   background-color: var(--footer-bg-color);
 }
 
 .nav-footer-mail {
-  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 17;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -268,7 +255,6 @@ body {
 }
 
 .nav-footer-tel {
-  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -285,8 +271,6 @@ body {
 
 .title-portfolio {
   color: var(--primary-text-color);
-  font-family: inherit;
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -295,8 +279,6 @@ body {
 
 .list-portfolio {
   color: var(--text-color);
-  font-family: inherit;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
